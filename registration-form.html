@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="registration-form.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Codetrain Registration Form</title>
+</head>
+<body>
+	<form class="template">
+		<div class="top">
+			<h1>Codetrain Registration Form</h1> 
+
+			<p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then <br>our admissions team will reach out to you to find out if you are a good fit for the program. If <br>you make it through, we will assist you to get started on the admissions process</p>
+			<hr>
+			<p><a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fs.typingclub.com%2Fm%2Fauth_callback.html&client_id=1036962974046.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&flowName=GeneralOAuthFlow">sign in to Google </a> to save your progress <a href="##">Learn more</a></p>
+			<p>*Required</p>
+		</div>
+		<div class="email">
+			<label for="email" >Email</label>
+			<br><br>
+			<input type="email" name="email" placeholder="Your email address" required>
+		</div>
+		<div class="fullname">
+			<label for="fullname">Full Name</label> <br><br>
+			<input type="text" name="fullname" placeholder= "Your answer" required>
+		</div>
+		<div class="phonenumber1">
+			<label for="phonenumber1">Phone Number</label><br><br>
+			<input type="Phone" name="phonenumber1" placeholder="Your Answer" required>
+		</div>
+		<div class="phonenumber2">
+			<label for="phonenumber2"> Phone number of next of kin</label><br>
+			<p>Phone number of someone we can reach out to in case your phone is off or not reachable. <br>Eg, your parent, guardian or sibling, or spouse</p><br>
+			<input type="Phone" name="phonenumber2" placeholder="Your Answer" >
+		</div>
+		<div class="fee">
+			<label for="fee">Can you pay 60% or more of the full Codetrain fees (GHS6000) <span>*</span></label><br><br>
+			<input type="radio" name="fee" class="fee" value="no">No <br>
+			<input type="radio" name="fee" class="fee" value="yes">Yes
+			
+		</div>
+		<div class="fee2">
+			<label for="fee2">Please indicate who is going to pay your fees<span>*</span></label><br><br>
+			<input type="radio" name="fee2" class="fee2" value="Yourself"> Yourself<br>
+			<input type="radio" name="fee2" class="fee2" value="Parent/Sponsor">Parent/Sponsor <br>
+			<input type="radio" name="fee2" class="fee2" value="Organisation">Organisation
+		</div>
+		<div class="location">
+			<label for="location">Location<span>*</span></label><br><br>
+			<input type="text" name="location" placeholder="Your answer">
+			
+		</div>
+		<div class="school">
+			<label for="school">Current or Previous school<span>*</span></label><br><br>
+			<input type="text" name="school"  placeholder="Your answer">
+			
+		</div>
+
+	</form>
+
+</body>

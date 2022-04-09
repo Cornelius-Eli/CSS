@@ -1,0 +1,28 @@
+.box1 {
+	height: 60px;
+	width: 100%;
+	background-color: blueviolet;
+	margin-bottom: 1%;
+}
+.box2{
+	height: 230px;
+	width: 100%;
+	background-color: blueviolet;
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+.box3 div {
+	height: 230px;
+	width: 30%;
+	background-color: blueviolet;
+	margin-top: 2%;
+}
+.box4{
+	height:80px;
+	width:100%;
+	background-color: blueviolet;
+	margin-top:2%;
